@@ -6,22 +6,35 @@ using namespace std;
 
 void Game()
 {
+	int i;
 	int playerInput;
+	int cardNum = 0;
 	int playerCard = 0, cpuCard = 0;
 	
 	srand((unsigned int)time(NULL));
-	playerCard = rand() % CARD_MAX + 1;
-	cpuCard
+	
+	playerCard += CardPull();
+	
 
 
 }
 
+int CardPull()
+{
+	int cardNum = rand() % CARD_MAX + CARD_MIN;
+	return cardNum;
+}
+
+int CardDisplay(int cardNum)
+{
+	
+}
 
 
 int InputCheck()
 {
 	int inputNum;
-	cout << "カードは引くか決めてください。Yes = 0、No = 1\n";
+	cout << "カードを引くか決めてください。Yes = 0、No = 1\n";
 	while (true)
 	{
 		cin >> inputNum;
