@@ -76,7 +76,7 @@ void GenerateNum(int num[], int size)
         {
             num[i] = rand() % (MAX_NUM);
             //Ç‡Çµèdï°ÇµÇΩÇÁçƒê∂ê¨Ç∑ÇÈ
-            if (num[i - 1] == num[i])continue;
+            if (num[i - 1] == num[i] || num[i - 2] == num[i])continue;
             else break;
         }
 	}
