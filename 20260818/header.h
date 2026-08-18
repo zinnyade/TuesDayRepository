@@ -12,10 +12,10 @@ const int HEAL_POINT = 30;
 /// 回復関数
 /// </summary>
 /// <param name="hp">プレイヤーのHP</param>
-void Heal(int *hp);
+void Heal(int* hp);
 
 /// <summary>
 /// ダメージ関数
 /// </summary>
 /// <param name="hp">プレイヤーのHP</param>
-void Damage(int *hp);
+void Damage(int* hp);
