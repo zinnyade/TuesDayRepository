@@ -20,25 +20,8 @@ int main(void)
 	example.Damage(30);
 	example.ShowStatus();*/
 
-	
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	Dog dog("ƒ|ƒ`");
+	dog.ShowProfile();
 
 	return 0;
 }
