@@ -7,9 +7,9 @@
 int main(void)
 {
 	//コンストラクタ
-	Player player;
-	Enemy enemy;
-	Boss boss;
+	Player player("勇者");
+	Enemy enemy("スライム");
+	Boss boss("魔王");
 	BattleManager manager;
 
 	/*Character* character;
