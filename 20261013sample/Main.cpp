@@ -2,6 +2,7 @@
 #include"Player.h"
 #include"Enemy.h"
 #include"Boss.h"
+#include"Wizard.h"
 #include"BattleManager.h"
 
 int main(void)
@@ -10,6 +11,8 @@ int main(void)
 	Player player("勇者");
 	Enemy enemy("スライム");
 	Boss boss("魔王");
+	Wizard wizard("魔法使い");
+
 	BattleManager manager;
 
 	/*Character* character;
@@ -21,6 +24,7 @@ int main(void)
 	character->Attack();*/
 
 	manager.StartBattle(&player);
+	manager.StartBattle(&wizard);
 	manager.StartBattle(&enemy);
 	manager.StartBattle(&boss);
 
