@@ -9,5 +9,5 @@ void Gojo::ShowStatus()
 
 void Gojo::UseTechnique()
 {
-	cout << "pŽ®”½“]FŠq" << endl;
+	cout << "—Ìˆæ“WŠJF–³—Ê‹óˆ" << endl;
 }
