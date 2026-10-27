@@ -5,17 +5,32 @@ private:
 	int hp;
 public:
 
-	// コンストラクタとデストラクタ
+	/// <summary>
+	/// コンストラクタ
+	/// </summary>
+	/// <param name="hp">HP</param>
 	Enemy(int hp);
+
+	/// <summary>
+	/// デストラクタ
+	/// </summary>
 	~Enemy();
 
-	// HPを表示するメソッド
+	/// <summary>
+	/// HPを表示するメソッド
+	/// </summary>
 	void ShowHp() const;
 
-	// ダメージを与えるメソッド
+	/// <summary>
+	/// ダメージを与えるメソッド
+	/// </summary>
+	/// <param name="damage">与えるダメージ量</param>
 	void Damage(int damage);
 
-	// HPを取得するメソッド
+	/// <summary>
+	/// HPを取得するメソッド
+	/// </summary>
+	/// <returns>HP</returns>
 	int GetHp() const;
 };
 
