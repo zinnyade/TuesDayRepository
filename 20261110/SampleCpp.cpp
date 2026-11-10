@@ -13,5 +13,5 @@ void CharacterSample::TakeDamage(int damage)
 
 void CharacterSample::ShowStatus() const
 {
-	std::cout << "Character HP: " << hp << std::endl;
+	std::cout << hp << std::endl;
 }
